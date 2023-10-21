@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="calculator">
+            <div class="display-box">
+
+                <input type="text" id="result" />
+            </div>
+
+            <div class="calculatorKeys">
+                <input type="button" value="C" onclick="clearButton()" class="lightGrey" />
+                <input type="button" value="+/-" onclick="negative('+/-')" class="lightGrey" />
+                <input type="button" value="%" onclick="percentage('%')" class="lightGrey" />
+                <input type="button" value="/" onclick="display('/')" class="orange" />
+                <input type="button" value="7" onclick="display('7')" class="darkGrey" />
+                <input type="button" value="8" onclick="display('8')" class="darkGrey" />
+                <input type="button" value="9" onclick="display('9')" class="darkGrey" />
+                <input type="button" value="*" onclick="display('*')" class="orange" />
+                <input type="button" value="4" onclick="display('4')" class="darkGrey" />
+                <input type="button" value="5" onclick="display('5')" class="darkGrey" />
+                <input type="button" value="6" onclick="display('6')" class="darkGrey" />
+                <input type="button" value="-" onclick="display('-')" class="orange" />
+                <input type="button" value="1" onclick="display('1')" class="darkGrey" />
+                <input type="button" value="2" onclick="display('2')" class="darkGrey" />
+                <input type="button" value="3" onclick="display('3')" class="darkGrey" />
+                <input type="button" value="+" onclick="display('+')" class="orange" />
+                <input type="button" value="0" onclick="display('0')" class="buttonZero" />
+                <input type="button" value="." onclick="display('.')" class="darkGrey" />
+                <input type="button" value="=" onclick="calculate()" class="orange" />
+
+            </div>
+        </section>
+
+        <script type="text/javascript" src="script.js"></script>
+    </main>
+
+
+</body>
+
+</html>
+
+</html>
